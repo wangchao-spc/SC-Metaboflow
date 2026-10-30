@@ -1,0 +1,42 @@
+# SC-MetaboFlow v2.0 with R Integration — Dependencies
+# Install: pip install -r requirements_r.txt
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# GUI framework
+PyQt6>=6.5.0
+
+# Excel support
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Image processing
+Pillow>=10.0.0
+
+# SCMeTA backend dependencies
+tqdm
+requests
+pycombat
+fisher_py
+
+# R-Python bridge
+rpy2>=3.5.0
+
+# ============================================
+# R Installation (required for R Analysis tab)
+# ============================================
+# 1. Install R from: https://cran.r-project.org/
+# 2. Add R to system PATH
+# 3. The R Analysis tab in the app will install R packages automatically on first use:
+#    - Seurat
+#    - monocle
+#    - EigenMS
+#    - ggplot2, dplyr, Matrix
